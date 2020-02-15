@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+
+  <node pkg="scan_matching" name="student_scan_matcher" type="student_scan_matcher" />
+  <node pkg="scan_matching" type="reactive_gap.py" name="reactive_gap"/>
+</launch>
